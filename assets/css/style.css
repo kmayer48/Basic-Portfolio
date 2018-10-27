@@ -1,0 +1,252 @@
+.header { 
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    position: fixed;
+    border-bottom: 1px #cccccc solid;
+    border-bottom-width: auto;
+    top: 0px;
+    z-index: 1;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    display: inline-block;
+    margin-left: 15%;
+    padding: 15px;
+    border-bottom: 1px #cccccc solid;
+}
+
+body{
+    margin: 0;
+    background-image: url("../images/qbkls.png");
+}
+
+.nav{
+    float: right;
+    padding: 35px 100px;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+
+li{
+    display: inline-block;
+}
+
+a { 
+    text-decoration: none;
+    color: #777777;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 960px;
+    margin: 160px auto;
+    background-color: #ffffff;
+    padding: 25px 25px;
+    height: auto;
+ }
+
+ .content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24pt;
+    color: #4aaaa5;
+    border-bottom: 2px #cccccc solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+#bio-pic {
+    width: 20%;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.bio p { 
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    position: relative;
+}
+
+.p1 {
+    float: right;
+    margin: 30px;
+    margin-bottom: 0;
+    width: 695px;
+    line-height: 35px
+}
+
+.p2 {
+    width: 100%;
+    display: inline-block;
+    line-height: 35px
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    font-size: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    border-top: 5px #4aaaa5 solid;
+}
+
+.footer p { 
+    margin-top: 30px
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 2px;
+}
+
+input [type=text] {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#name{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#text {
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: both;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.pics img { 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.first-row {
+    float: left;
+}
+
+.first-row:after {
+    clear: both;
+}
+
+.Hangman {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.hangman-text {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 7%;
+    width: 100%
+}
+
+.RPG{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    margin-right: 200px;
+}
+
+.rpg-text{
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+}
+
+.trivia{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.trivia-text {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+}
+
+.gwlogo{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+.infowidg-text{
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+}
+
+.RPS{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+}
+
+.rps{
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+}
