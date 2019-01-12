@@ -94,15 +94,12 @@ a:hover {
 
 .footer {
     width: 100%;
-    height: 50px;
     font-size: 10pt;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
     background-color: #666666;
-    position: fixed;
-    bottom: 0px;
-    border-top: 5px #4aaaa5 solid;
+    bottom: 0;
 }
 
 .footer p { 
